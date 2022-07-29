@@ -1,0 +1,520 @@
+07-29 05:55:40.493 12509 12546 I TestRunner: started: vertical_scroll_content_at_first_position(com.example.dogglers.VerticalListTests)
+07-29 05:55:40.495  1892  3653 D EGL_emulation: eglMakeCurrent: 0xbf66dfc0: ver 2 0 (tinfo 0xcb7378d0)
+07-29 05:55:40.500  1892  2737 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@798c245)
+07-29 05:55:40.502  1892  1905 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@798c245)
+07-29 05:55:40.546 12509 12546 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+07-29 05:55:40.781  1892  1901 I system_server: NativeAlloc concurrent copying GC freed 7753(621KB) AllocSpace objects, 5(180KB) LOS objects, 25% free, 17MB/23MB, paused 1.430ms total 209.649ms
+07-29 05:55:40.887 12509 12509 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@205ca1e
+07-29 05:55:41.022 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc in: PRE_ON_CREATE
+07-29 05:55:41.028 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc
+07-29 05:55:41.099 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc in: CREATED
+07-29 05:55:41.099 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc
+07-29 05:55:41.107  1637  2722 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9023488
+07-29 05:55:41.110 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc in: STARTED
+07-29 05:55:41.110 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc
+07-29 05:55:41.170 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc in: RESUMED
+07-29 05:55:41.171 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc
+07-29 05:55:41.178 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc in: PAUSED
+07-29 05:55:41.179 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc
+07-29 05:55:41.195 12509 12509 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@8c06a2a
+07-29 05:55:41.223 12509 12509 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@3c9b2f7 in: PRE_ON_CREATE
+07-29 05:55:41.223 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+07-29 05:55:41.341 12509 12509 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@3c9b2f7 in: CREATED
+07-29 05:55:41.341 12509 12509 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.VerticalListActivity@3c9b2f7
+07-29 05:55:41.372 24107 25347 D EGL_emulation: eglMakeCurrent: 0xe54868c0: ver 2 0 (tinfo 0xe5483370)
+07-29 05:55:41.373 12509 12509 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@3c9b2f7 in: STARTED
+07-29 05:55:41.374 12509 12509 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.VerticalListActivity@3c9b2f7
+07-29 05:55:41.377 12509 12509 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@3c9b2f7 in: RESUMED
+07-29 05:55:41.377 12509 12509 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.VerticalListActivity@3c9b2f7
+07-29 05:55:41.393  2009  2260 D EGL_emulation: eglMakeCurrent: 0xe3a30e80: ver 2 0 (tinfo 0xe35ff2f0)
+07-29 05:55:41.494  2583  2699 D EGL_emulation: eglMakeCurrent: 0xcfd26e60: ver 2 0 (tinfo 0xcfd317b0)
+07-29 05:55:41.522  1892  2737 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@64c3f0)
+07-29 05:55:41.528  1892  1905 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@64c3f0)
+07-29 05:55:41.532  2009  2260 D EGL_emulation: eglMakeCurrent: 0xe3a30e80: ver 2 0 (tinfo 0xe35ff2f0)
+07-29 05:55:41.699  1637  2722 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9592832
+07-29 05:55:41.730  1637  1679 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9592832
+07-29 05:55:41.732  1637  2722 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9592832
+07-29 05:55:41.934 12509 12550 D EGL_emulation: eglMakeCurrent: 0xeb67f640: ver 2 0 (tinfo 0xeb631bf0)
+07-29 05:55:42.000  1892  1914 I ActivityManager: Displayed com.example.dogglers/.VerticalListActivity: +802ms (total +1s105ms)
+07-29 05:55:42.035 23703 23703 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+07-29 05:55:42.091 23703 23703 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+07-29 05:55:42.111 12509 12509 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Tzeitel"
+07-29 05:55:42.305  1737  1737 W SurfaceFlinger: couldn't log to binary event log: overflow.
+07-29 05:55:42.374 12509 12509 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "7"
+07-29 05:55:42.375 12509 12509 E ViewAssertions: '(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)' check could not be performed because view 'an instance of android.widget.TextView and view.getText() with or without transformation to match: is "7"' was not found.
+07-29 05:55:42.378 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc in: STOPPED
+07-29 05:55:42.384 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc
+07-29 05:55:42.427 12509 12522 I xample.doggler: Background concurrent copying GC freed 41016(2MB) AllocSpace objects, 1(20KB) LOS objects, 50% free, 4MB/8MB, paused 1.916ms total 115.627ms
+07-29 05:55:42.441 12509 12509 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@3c9b2f7 in: PAUSED
+07-29 05:55:42.441 12509 12509 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.VerticalListActivity@3c9b2f7
+07-29 05:55:42.460 12509 12509 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@91c134f
+07-29 05:55:42.492  1892  2737 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@5e8a023)
+07-29 05:55:42.493  1892  1905 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@5e8a023)
+07-29 05:55:42.517 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5 in: PRE_ON_CREATE
+07-29 05:55:42.517 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5
+07-29 05:55:42.528 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5 in: CREATED
+07-29 05:55:42.529 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5
+07-29 05:55:42.535 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5 in: STARTED
+07-29 05:55:42.535 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5
+07-29 05:55:42.571 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5 in: RESUMED
+07-29 05:55:42.571 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5
+07-29 05:55:42.656 24107 12219 I PBSessionCacheImpl: (REDACTED) Deleted sessionId[%d] from persistence.
+07-29 05:55:42.666  1637  2722 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9023488
+07-29 05:55:42.670  1637  1679 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9023488
+07-29 05:55:42.698  1637  1679 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9023488
+07-29 05:55:42.726 23703 23703 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+07-29 05:55:42.726 23703 23703 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+07-29 05:55:42.796 12509 12550 D EGL_emulation: eglMakeCurrent: 0xeb67f640: ver 2 0 (tinfo 0xeb631bf0)
+07-29 05:55:42.822 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5 in: PAUSED
+07-29 05:55:42.822 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5
+07-29 05:55:42.879 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc in: DESTROYED
+07-29 05:55:42.879 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@6ce08cc
+07-29 05:55:42.879 12509 12509 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@ad76086
+07-29 05:55:42.888 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974 in: PRE_ON_CREATE
+07-29 05:55:42.888 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974
+07-29 05:55:42.896 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974 in: CREATED
+07-29 05:55:42.896 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974
+07-29 05:55:42.902 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974 in: STARTED
+07-29 05:55:42.902 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974
+07-29 05:55:42.905 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974 in: RESUMED
+07-29 05:55:42.905 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974
+07-29 05:55:42.922 24107 24251 W SearchServiceCore: Abort, client detached.
+07-29 05:55:43.001  1737  1737 D SurfaceFlinger: duplicate layer name: changing com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity to com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1
+07-29 05:55:43.034  1637  1679 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9023488
+07-29 05:55:43.035  1637  2722 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9023488
+07-29 05:55:43.063  1637  1679 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9023488
+07-29 05:55:43.074 23703 23703 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+07-29 05:55:43.074 23703 23703 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+07-29 05:55:43.096 12509 12550 D EGL_emulation: eglMakeCurrent: 0xeb67f640: ver 2 0 (tinfo 0xeb631bf0)
+07-29 05:55:43.112 12509 12550 D EGL_emulation: eglMakeCurrent: 0xeb67f640: ver 2 0 (tinfo 0xeb631bf0)
+07-29 05:55:43.203 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5 in: STOPPED
+07-29 05:55:43.203 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5
+07-29 05:55:43.206 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5 in: DESTROYED
+07-29 05:55:43.206 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@9fb87e5
+07-29 05:55:43.243 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974 in: PAUSED
+07-29 05:55:43.243 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974
+07-29 05:55:43.247  1737  1737 W SurfaceFlinger: couldn't log to binary event log: overflow.
+07-29 05:55:43.268 12509 12550 D EGL_emulation: eglMakeCurrent: 0xeb67f640: ver 2 0 (tinfo 0xeb631bf0)
+07-29 05:55:43.304  1637  1679 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9592832
+07-29 05:55:43.319  1637  2722 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9592832
+07-29 05:55:43.337  1637  1679 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9592832
+07-29 05:55:43.377  1737  1737 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+07-29 05:55:43.410  1637  1679 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9592832
+07-29 05:55:43.436  1637  2722 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9592832
+07-29 05:55:43.441  1637  1679 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9592832
+07-29 05:55:43.451 24107 24107 E Tracer  : Missing trace
+07-29 05:55:43.451 24107 24107 E Tracer  : java.lang.IllegalStateException: Was supposed to have a trace - did you forget to propagate or create one? See http://go/tiktok-tracing for more details.
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.r(PG:3)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.u(PG:2)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.t(PG:2)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at com.google.android.apps.search.googleapp.discover.streamui.impl.l.onStart(PG:4)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performStart(PG:3)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:160)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.y(PG:1)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performStart(PG:7)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:160)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.y(PG:1)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.support.v4.app.ar.l(PG:1)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at com.google.apps.tiktok.inject.c.a.c.u(PG:4)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.d.n.l(PG:1)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.z.v(PG:6)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.n.Z(PG:4)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.r.handleMessage(PG:28)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.s.handleMessage(PG:1)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.os.Looper.loop(Looper.java:193)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at java.lang.reflect.Method.invoke(Native Method)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+07-29 05:55:43.451 24107 24107 E Tracer  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+07-29 05:55:43.485 23703 23703 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+07-29 05:55:43.486 23703 23703 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+07-29 05:55:43.502  1892  2737 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@a9684b2)
+07-29 05:55:43.502  2583  2699 D EGL_emulation: eglMakeCurrent: 0xcfd26e60: ver 2 0 (tinfo 0xcfd317b0)
+07-29 05:55:43.503  1892  1905 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@a9684b2)
+07-29 05:55:43.568  2009  2260 D EGL_emulation: eglMakeCurrent: 0xe3a30e80: ver 2 0 (tinfo 0xe35ff2f0)
+07-29 05:55:43.639  2009  2260 D EGL_emulation: eglMakeCurrent: 0xe3a30e80: ver 2 0 (tinfo 0xe35ff2f0)
+07-29 05:55:43.742 24107 24107 E Tracer  : Missing trace
+07-29 05:55:43.742 24107 24107 E Tracer  : java.lang.IllegalStateException: Was supposed to have a trace - did you forget to propagate or create one? See http://go/tiktok-tracing for more details.
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.r(PG:3)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.aj.a(PG:1)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.android.libraries.storage.protostore.eg.d(PG:1)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.apps.tiktok.account.data.manager.ag.d(PG:1)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.apps.tiktok.account.data.g.c(PG:1)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.apps.tiktok.account.data.az.c(PG:1)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.android.libraries.search.udcdataservice.t.a(PG:1)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.android.libraries.search.udcdataservice.q.d(PG:4)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.android.libraries.search.udcdataservice.q.b(PG:3)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.android.apps.search.googleapp.accounts.ui.d.onResume(PG:4)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:3)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:7)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:7)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.support.v4.app.ar.k(PG:1)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.apps.tiktok.inject.c.a.c.j(PG:4)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.d.n.j(PG:1)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.z.t(PG:3)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.n.Z(PG:7)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.r.handleMessage(PG:28)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.s.handleMessage(PG:1)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.os.Looper.loop(Looper.java:193)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at java.lang.reflect.Method.invoke(Native Method)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+07-29 05:55:43.742 24107 24107 E Tracer  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+07-29 05:55:43.812 24107 24250 E Tracer  : Missing trace
+07-29 05:55:43.812 24107 24250 E Tracer  : java.lang.IllegalStateException: Was supposed to have a trace - did you forget to propagate or create one? See this exception's cause for the last place a trace was missing. See http://go/tiktok-tracing for more details.
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.r(PG:6)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.an.d(PG:1)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.u(PG:5)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.t(PG:2)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.aj.b(PG:1)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.android.libraries.storage.protostore.eg.b(PG:1)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.android.libraries.storage.protostore.eg.a(PG:2)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.android.apps.search.googleapp.accounts.ui.b.j.gp(PG:5)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.en.gp(PG:2)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.common.util.concurrent.cc.run(PG:7)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.android.libraries.i.af.run(PG:1)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.android.libraries.i.an.run(PG:23)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.android.libraries.i.l.run(PG:2)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.android.libraries.i.q.run(PG:4)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at java.lang.Thread.run(Thread.java:764)
+07-29 05:55:43.812 24107 24250 E Tracer  : Caused by: com.google.apps.tiktok.tracing.x
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.an.<init>(PG:3)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.f(PG:2)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.ev.n(PG:1)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.android.apps.search.googleapp.accounts.ui.d.onResume(PG:5)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:3)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:7)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:7)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.support.v4.app.ar.k(PG:1)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.apps.tiktok.inject.c.a.c.j(PG:4)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.d.n.j(PG:1)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.z.t(PG:3)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.android.libraries.gsa.d.b.n.Z(PG:7)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.android.libraries.gsa.d.b.r.handleMessage(PG:28)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.google.android.libraries.gsa.d.b.s.handleMessage(PG:1)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.os.Looper.loop(Looper.java:193)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at java.lang.reflect.Method.invoke(Native Method)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+07-29 05:55:43.812 24107 24250 E Tracer  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+07-29 05:55:43.814 24107 24250 E Tracer  : Missing trace
+07-29 05:55:43.814 24107 24250 E Tracer  : java.lang.IllegalStateException: Was supposed to have a trace - did you forget to propagate or create one? See this exception's cause for the last place a trace was missing. See http://go/tiktok-tracing for more details.
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.r(PG:6)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.apps.tiktok.dataservice.cx.c(PG:1)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.apps.tiktok.dataservice.cx.a(PG:1)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.android.apps.search.googleapp.accounts.ui.b.j.gp(PG:6)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.en.gp(PG:2)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.common.util.concurrent.cc.run(PG:7)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.android.libraries.i.af.run(PG:1)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.android.libraries.i.an.run(PG:23)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.android.libraries.i.l.run(PG:2)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.android.libraries.i.q.run(PG:4)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at java.lang.Thread.run(Thread.java:764)
+07-29 05:55:43.814 24107 24250 E Tracer  : Caused by: com.google.apps.tiktok.tracing.x
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.an.<init>(PG:3)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.f(PG:2)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.apps.tiktok.tracing.ev.n(PG:1)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.android.apps.search.googleapp.accounts.ui.d.onResume(PG:5)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:3)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:7)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:7)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.support.v4.app.ar.k(PG:1)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.apps.tiktok.inject.c.a.c.j(PG:4)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.d.n.j(PG:1)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.z.t(PG:3)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.android.libraries.gsa.d.b.n.Z(PG:7)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.android.libraries.gsa.d.b.r.handleMessage(PG:28)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.google.android.libraries.gsa.d.b.s.handleMessage(PG:1)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.os.Looper.loop(Looper.java:193)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at java.lang.reflect.Method.invoke(Native Method)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+07-29 05:55:43.814 24107 24250 E Tracer  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+07-29 05:55:43.855 24107 25347 D EGL_emulation: eglMakeCurrent: 0xe54868c0: ver 2 0 (tinfo 0xe5483370)
+07-29 05:55:43.931 24107 24107 E Tracer  : Missing trace
+07-29 05:55:43.931 24107 24107 E Tracer  : java.lang.IllegalStateException: Was supposed to have a trace - did you forget to propagate or create one? See this exception's cause for the last place a trace was missing. See http://go/tiktok-tracing for more details.
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.r(PG:6)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.an.d(PG:1)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.u(PG:5)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.a(PG:2)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.apps.tiktok.dataservice.eb.c(PG:4)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.apps.tiktok.dataservice.dz.run(PG:6)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.apps.tiktok.concurrent.am.run(PG:6)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.em.run(PG:2)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.ea.a(PG:1)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.cw.run(PG:4)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.eb.run(PG:1)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.os.Handler.handleCallback(Handler.java:873)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.os.Looper.loop(Looper.java:193)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at java.lang.reflect.Method.invoke(Native Method)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+07-29 05:55:43.931 24107 24107 E Tracer  : Caused by: com.google.apps.tiktok.tracing.x
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.an.<init>(PG:3)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.f(PG:2)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.ev.n(PG:1)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.android.apps.search.googleapp.accounts.ui.d.onResume(PG:5)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:3)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:7)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:7)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.support.v4.app.ar.k(PG:1)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.apps.tiktok.inject.c.a.c.j(PG:4)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.d.n.j(PG:1)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.z.t(PG:3)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.n.Z(PG:7)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.r.handleMessage(PG:28)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.s.handleMessage(PG:1)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-29 05:55:43.931 24107 24107 E Tracer  : 	... 5 more
+07-29 05:55:43.933 24107 24107 E Tracer  : Missing trace
+07-29 05:55:43.933 24107 24107 E Tracer  : java.lang.IllegalStateException: Was supposed to have a trace - did you forget to propagate or create one? See this exception's cause for the last place a trace was missing. See http://go/tiktok-tracing for more details.
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.r(PG:6)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.aj.a(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.android.libraries.storage.protostore.eg.d(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.android.apps.search.googleapp.accounts.ui.b.b.a(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.apps.tiktok.dataservice.ba.a(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.ab.a(PG:2)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.dz.a(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.cw.run(PG:4)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.eb.run(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.bg.execute(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.ay.<init>(PG:5)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.apps.tiktok.dataservice.bc.a(PG:3)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.apps.tiktok.dataservice.eb.c(PG:5)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.apps.tiktok.dataservice.dz.run(PG:6)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.apps.tiktok.concurrent.am.run(PG:6)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.em.run(PG:2)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.ea.a(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.cw.run(PG:4)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.eb.run(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.os.Handler.handleCallback(Handler.java:873)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.os.Looper.loop(Looper.java:193)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at java.lang.reflect.Method.invoke(Native Method)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+07-29 05:55:43.933 24107 24107 E Tracer  : Caused by: com.google.apps.tiktok.tracing.x
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.an.<init>(PG:3)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.f(PG:2)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.ev.n(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.android.apps.search.googleapp.accounts.ui.d.onResume(PG:5)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:3)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:7)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:7)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.support.v4.app.ar.k(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.apps.tiktok.inject.c.a.c.j(PG:4)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.d.n.j(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.z.t(PG:3)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.n.Z(PG:7)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.r.handleMessage(PG:28)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.s.handleMessage(PG:1)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-29 05:55:43.933 24107 24107 E Tracer  : 	... 5 more
+07-29 05:55:43.933  1637  1679 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9592832
+07-29 05:55:43.947 24107 24107 E Tracer  : Missing trace
+07-29 05:55:43.947 24107 24107 E Tracer  : java.lang.IllegalStateException: Was supposed to have a trace - did you forget to propagate or create one? See this exception's cause for the last place a trace was missing. See http://go/tiktok-tracing for more details.
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.r(PG:6)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.an.d(PG:1)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.u(PG:5)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.a(PG:2)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.apps.tiktok.dataservice.eb.f(PG:3)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.apps.tiktok.dataservice.dt.run(PG:31)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.apps.tiktok.concurrent.am.run(PG:6)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.em.run(PG:2)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.ea.a(PG:1)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.cw.run(PG:4)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.common.util.concurrent.eb.run(PG:1)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.os.Handler.handleCallback(Handler.java:873)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.os.Looper.loop(Looper.java:193)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at java.lang.reflect.Method.invoke(Native Method)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+07-29 05:55:43.947 24107 24107 E Tracer  : Caused by: com.google.apps.tiktok.tracing.x
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.an.<init>(PG:3)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.fp.f(PG:2)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.apps.tiktok.tracing.ev.n(PG:1)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.android.apps.search.googleapp.accounts.ui.d.onResume(PG:5)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:3)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:7)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.Fragment.performResume(PG:7)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.by.e(PG:175)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.F(PG:4)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.z(PG:2)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.FragmentManager.x(PG:1)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.support.v4.app.ar.k(PG:1)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.apps.tiktok.inject.c.a.c.j(PG:4)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.d.n.j(PG:1)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.android.apps.gsa.nowoverlayservice.z.t(PG:3)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.n.Z(PG:7)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.r.handleMessage(PG:28)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at com.google.android.libraries.gsa.d.b.s.handleMessage(PG:1)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-29 05:55:43.947 24107 24107 E Tracer  : 	... 5 more
+07-29 05:55:43.959 24107 24107 W A       : Can't get WAA status for Mavatar!
+07-29 05:55:43.959 24107 24107 W A       : java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Class java.lang.Object.getClass()' on a null object reference
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.apps.tiktok.dataservice.af.b(PG:1)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.apps.tiktok.dataservice.bb.a(PG:1)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.apps.tiktok.tracing.eg.a(PG:2)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.common.util.concurrent.aj.a(PG:2)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.common.util.concurrent.ac.apply(PG:1)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.common.util.concurrent.h.e(PG:2)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.common.util.concurrent.j.run(PG:9)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.common.util.concurrent.bg.execute(PG:1)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.common.util.concurrent.d.i(PG:1)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.common.util.concurrent.d.b(PG:5)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.common.util.concurrent.j.h(PG:2)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.common.util.concurrent.ay.e(PG:1)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.apps.tiktok.dataservice.bc.a(PG:5)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.apps.tiktok.dataservice.eb.c(PG:5)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.apps.tiktok.dataservice.dz.run(PG:6)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.apps.tiktok.concurrent.am.run(PG:6)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.apps.tiktok.tracing.em.run(PG:2)
+07-29 05:55:43.959 24107 24107 W A       : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.common.util.concurrent.ea.a(PG:1)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.common.util.concurrent.cw.run(PG:4)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.google.common.util.concurrent.eb.run(PG:1)
+07-29 05:55:43.959 24107 24107 W A       : 	at android.os.Handler.handleCallback(Handler.java:873)
+07-29 05:55:43.959 24107 24107 W A       : 	at android.os.Handler.dispatchMessage(Handler.java:99)
+07-29 05:55:43.959 24107 24107 W A       : 	at android.os.Looper.loop(Looper.java:193)
+07-29 05:55:43.959 24107 24107 W A       : 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+07-29 05:55:43.959 24107 24107 W A       : 	at java.lang.reflect.Method.invoke(Native Method)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+07-29 05:55:43.959 24107 24107 W A       : 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+07-29 05:55:44.165  2583  2599 W System  : A resource failed to call release.
+07-29 05:55:44.165  2583  2599 W System  : A resource failed to call release.
+07-29 05:55:44.171  2583  2601 I s.nexuslaunche: NativeAlloc concurrent copying GC freed 10776(545KB) AllocSpace objects, 2(104KB) LOS objects, 40% free, 8MB/14MB, paused 2.780ms total 132.817ms
+07-29 05:55:44.186  2009  2026 I ndroid.systemu: NativeAlloc concurrent copying GC freed 1482(127KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 4MB/9MB, paused 2.098ms total 107.028ms
+07-29 05:55:44.239 24107 24251 I A       : Using proto config with mendel
+07-29 05:55:44.312 24107 24251 I A       : Using proto config with mendel
+07-29 05:55:44.505  1892  2737 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@198d698)
+07-29 05:55:44.506  1892  1905 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@198d698)
+07-29 05:55:44.557  1892  3653 D HostConnection: HostConnection::get() New Host Connection established 0xcebfb100, tid 3653
+07-29 05:55:44.559  1892  3653 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+07-29 05:55:44.566  1892  3653 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+07-29 05:55:44.566  1892  3653 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+07-29 05:55:44.566  1892  3653 I OpenGLRenderer: Initialized EGL, version 1.4
+07-29 05:55:44.566  1892  3653 D OpenGLRenderer: Swap behavior 1
+07-29 05:55:44.566  1892  3653 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-29 05:55:44.566  1892  3653 D OpenGLRenderer: Swap behavior 0
+07-29 05:55:44.576  1892  3653 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+07-29 05:55:44.576  1892  3653 D EGL_emulation: eglCreateContext: 0xbf66e200: maj 2 min 0 rcv 2
+07-29 05:55:44.622 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974 in: STOPPED
+07-29 05:55:44.628 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974
+07-29 05:55:44.631  1892  3653 D EGL_emulation: eglMakeCurrent: 0xbf66e200: ver 2 0 (tinfo 0xcb7378d0)
+07-29 05:55:44.653 12509 12509 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974 in: DESTROYED
+07-29 05:55:44.653 12509 12509 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@70f4974
+07-29 05:55:44.681 12509 12509 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@3c9b2f7 in: STOPPED
+07-29 05:55:44.683 12509 12509 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.VerticalListActivity@3c9b2f7
+07-29 05:55:44.688 12509 12509 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@3c9b2f7 in: DESTROYED
+07-29 05:55:44.689 12509 12509 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+07-29 05:55:44.700 12509 12546 E TestRunner: failed: vertical_scroll_content_at_first_position(com.example.dogglers.VerticalListTests)
+07-29 05:55:44.701 12509 12546 E TestRunner: ----- begin exception -----
+07-29 05:55:44.713 12509 12546 E TestRunner: androidx.test.espresso.NoMatchingViewException: No views in hierarchy found matching: an instance of android.widget.TextView and view.getText() with or without transformation to match: is "7"
+07-29 05:55:44.713 12509 12546 E TestRunner:
+07-29 05:55:44.713 12509 12546 E TestRunner: View Hierarchy:
+07-29 05:55:44.713 12509 12546 E TestRunner: +>DecorView{id=-1, visibility=VISIBLE, width=1080, height=2220, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) ty=BASE_APPLICATION wanim=0x10302f8
+07-29 05:55:44.713 12509 12546 E TestRunner:   fl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS
+07-29 05:55:44.713 12509 12546 E TestRunner:   pfl=FORCE_DRAW_STATUS_BAR_BACKGROUND}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}
+07-29 05:55:44.713 12509 12546 E TestRunner: |
+07-29 05:55:44.713 12509 12546 E TestRunner: +->LinearLayout{id=-1, visibility=VISIBLE, width=1080, height=2088, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@354bf8f, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+07-29 05:55:44.713 12509 12546 E TestRunner: |
+07-29 05:55:44.713 12509 12546 E TestRunner: +-->ViewStub{id=16908682, res-name=action_mode_bar_stub, visibility=GONE, width=0, height=0, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=true, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@50d521c, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0}
+07-29 05:55:44.713 12509 12546 E TestRunner: |
+07-29 05:55:44.713 12509 12546 E TestRunner: +-->FrameLayout{id=-1, visibility=VISIBLE, width=1080, height=2022, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.LinearLayout$LayoutParams@76f9bfa, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=66.0, child-count=1}
+07-29 05:55:44.713 12509 12546 E TestRunner: |
+07-29 05:55:44.713 12509 12546 E TestRunner: +--->ActionBarOverlayLayout{id=2131230866, res-name=decor_content_parent, visibility=VISIBLE, width=1080, height=2022, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@88b07a1, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=2}
+07-29 05:55:44.713 12509 12546 E TestRunner: |
+07-29 05:55:44.713 12509 12546 E TestRunner: +---->ContentFrameLayout{id=16908290, res-name=content, visibility=VISIBLE, width=1080, height=1868, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.appcompat.widget.ActionBarOverlayLayout$LayoutParams@d5b1187, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=154.0, child-count=1}
+07-29 05:55:44.713 12509 12546 E TestRunner: |
+07-29 05:55:44.713 12509 12546 E TestRunner: +----->FrameLayout{id=-1, visibility=VISIBLE, width=1080, height=1868, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@c2f7cdd, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}
+07-29 05:55:44.713 12509 12546 E TestRunner: |
+07-29 05:55:44.713 12509 12546 E TestRunner: +------>RecyclerView{id=2131231206, res-name=vertical_recycler_view, visibility=VISIBLE, width=1080, height=1868, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@7ac09d9, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=3}
+07-29 05:55:44.713 12509 12546 E TestRunner: |
+07-29 05:55:44.713 12509 12546 E TestRunner: +------->MaterialCardView{id=-1, visibility=VISIBLE, width=1036, height=749, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layo
+07-29 05:55:44.713 12509 12546 E TestRunner: ----- end exception -----
+07-29 05:55:44.746  1737  1763 W SurfaceFlinger: Attempting to destroy on removed layer: AppWindowToken{579f384 token=Token{a82e597 ActivityRecord{6fcd816 u0 com.example.dogglers/.VerticalListActivity t236}}}#0
+07-29 05:55:44.788 12509 12546 I TestRunner: finished: vertical_scroll_content_at_first_position(com.example.dogglers.VerticalListTests)
